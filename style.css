@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "popping", sans-serif;
+}
+.video_box {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.video_box video {
+  width: 100%;
+  height: 100%;
+}
+.video_box h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30vw;
+  background-color: white;
+  mix-blend-mode: screen;
+}
